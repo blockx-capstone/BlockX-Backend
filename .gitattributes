@@ -7,6 +7,9 @@
 *.html text eol=lf
 *.css text eol=lf
 
+# Specific fixes for venv files
+venv/Lib/site-packages/charset_normalizer-3.4.2.dist-info/top_level.txt -text
+
 # Binary files
 *.png binary
 *.jpg binary
